@@ -1,0 +1,51 @@
+@import "font.css";
+
+html {
+    background: #fcf6e3;
+}
+
+body {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.summer-font {
+    font-family: 'SummerHearts-Regular', serif;
+}
+
+.never-stop {
+    padding-top: 5%;
+    width: 55%;
+}
+
+.never-stop img {
+    width: 100%;
+}
+
+.editable {
+    padding-left: 10%;
+    color: #902b38;
+    font-size: 5vw;
+    -ms-transform: rotate(-15deg); /* IE 9 */
+    -webkit-transform: rotate(-15deg); /* Safari */
+    transform: rotate(-15deg);
+}
+
+.editable h1 {
+    padding: 0;
+    margin: 0;
+    margin-top: -15%;
+}
+
+.main-wrapper {
+    background-image: url('../images/magnum.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
+    width: 100%;
+}
+
+.clearfix {
+    clear: both;
+}
