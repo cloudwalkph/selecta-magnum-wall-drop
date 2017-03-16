@@ -5,8 +5,8 @@ html {
 }
 
 body {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 25%;
+    padding-right: 25%;
 }
 
 .summer-font {
@@ -15,7 +15,7 @@ body {
 
 .never-stop {
     padding-top: 5%;
-    width: 55%;
+    width: 58%;
 }
 
 .never-stop img {
@@ -23,9 +23,9 @@ body {
 }
 
 .editable {
-    padding-left: 10%;
+    padding-left: -5%;
     color: #902b38;
-    font-size: 5vw;
+    font-size: 8vw;
     -ms-transform: rotate(-15deg); /* IE 9 */
     -webkit-transform: rotate(-15deg); /* Safari */
     transform: rotate(-15deg);

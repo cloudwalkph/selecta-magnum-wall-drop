@@ -15,7 +15,7 @@
             </div>
 
             <div class="editable">
-                <h1 class="summer-font">TESTING</h1>
+                <h1 class="summer-font">TEST</h1>
             </div>
 
             <div class="clearfix"></div>
@@ -23,7 +23,11 @@
 
         <script type="text/javascript" src="vendor/medium-editor/dist/js/medium-editor.min.js"></script>
         <script>var editor = new MediumEditor('.editable', {
-            spellcheck: false
+            spellcheck: false,
+            align: 'center',
+            toolbar: {
+                buttons: ['bold', 'italic', 'underline'],
+            }
         });</script>
     </body>
 </html>
