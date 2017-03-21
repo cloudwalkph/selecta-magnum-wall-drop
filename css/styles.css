@@ -2,6 +2,7 @@
 
 html {
     background: #fcf6e3;
+    font-family: 'Drop-Dead', serif;
 }
 
 body {
@@ -9,13 +10,9 @@ body {
     padding-right: 25%;
 }
 
-.summer-font {
-    font-family: 'SummerHearts-Regular', serif;
-}
-
 .never-stop {
     padding-top: 5%;
-    width: 58%;
+    width: 60%;
 }
 
 .never-stop img {
@@ -23,18 +20,24 @@ body {
 }
 
 .editable {
-    padding-left: -5%;
+    display: block;
     color: #902b38;
     font-size: 8vw;
     -ms-transform: rotate(-15deg); /* IE 9 */
     -webkit-transform: rotate(-15deg); /* Safari */
     transform: rotate(-15deg);
+    margin: 0;
+    margin-top: -12%;
+    margin-left: -10%;
+    min-width: 500px;
+    max-width: 650px;
+    /*max-height: 10vw;*/
+    /*overflow: hidden;*/
+    text-align: center;
 }
 
-.editable h1 {
-    padding: 0;
-    margin: 0;
-    margin-top: -15%;
+.medium-editor-placeholder:after {
+    top: 125px !important;
 }
 
 .main-wrapper {
@@ -48,4 +51,134 @@ body {
 
 .clearfix {
     clear: both;
+}
+
+@media screen and (min-width : 1024px) and (max-width: 1279px) and (device-aspect-ratio: 4/3) {
+    body {
+        padding-left: 18%;
+        padding-right: 18%;
+    }
+
+    .never-stop {
+        padding-top: 15%;
+        width: 60%;
+    }
+
+    .editable {
+        display: block;
+        color: #902b38;
+        font-size: 10vw;
+        -ms-transform: rotate(-15deg); /* IE 9 */
+        -webkit-transform: rotate(-15deg); /* Safari */
+        transform: rotate(-15deg);
+        margin: 0;
+        margin-top: -8%;
+        margin-left: -5%;
+        min-width: 400px;
+        max-width: 500px;
+        /*max-height: 10vw;*/
+        /*overflow: hidden;*/
+        text-align: center;
+    }
+}
+
+@media screen and (min-width : 1024px) and (max-width: 1279px) {
+    body {
+        padding-left: 18%;
+        padding-right: 18%;
+    }
+
+    .never-stop {
+        padding-top: 15%;
+        width: 60%;
+    }
+
+    .editable {
+        display: block;
+        color: #902b38;
+        font-size: 10vw;
+        -ms-transform: rotate(-15deg); /* IE 9 */
+        -webkit-transform: rotate(-15deg); /* Safari */
+        transform: rotate(-15deg);
+        margin: 0;
+        margin-top: -8%;
+        margin-left: -5%;
+        min-width: 400px;
+        max-width: 500px;
+        /*max-height: 10vw;*/
+        /*overflow: hidden;*/
+        text-align: center;
+    }
+}
+
+@media screen and (min-width : 1280px) and (max-width: 1679px) {
+    .never-stop {
+        padding-top: 15%;
+        width: 60%;
+    }
+
+    .editable {
+        display: block;
+        color: #902b38;
+        font-size: 9vw;
+        -ms-transform: rotate(-15deg); /* IE 9 */
+        -webkit-transform: rotate(-15deg); /* Safari */
+        transform: rotate(-15deg);
+        margin: 0;
+        margin-top: -8%;
+        margin-left: -10%;
+        min-width: 400px;
+        max-width: 500px;
+        /*max-height: 10vw;*/
+        /*overflow: hidden;*/
+        text-align: center;
+    }
+}
+
+@media screen and (min-width : 1680px) and (max-width: 2559px) {
+    .never-stop {
+        padding-top: 15%;
+        width: 60%;
+    }
+
+    .editable {
+        display: block;
+        color: #902b38;
+        font-size: 9vw;
+        -ms-transform: rotate(-15deg); /* IE 9 */
+        -webkit-transform: rotate(-15deg); /* Safari */
+        transform: rotate(-15deg);
+        margin: 0;
+        margin-top: -8%;
+        margin-left: -10%;
+        min-width: 600px;
+        max-width: 7400px;
+        /*max-height: 10vw;*/
+        /*overflow: hidden;*/
+        text-align: center;
+    }
+}
+
+@media screen and (min-width : 2560px) {
+    .never-stop {
+        padding-top: 15%;
+        width: 60%;
+    }
+
+    .editable {
+        display: block;
+        color: #902b38;
+        font-size: 9vw;
+        -ms-transform: rotate(-15deg); /* IE 9 */
+        -webkit-transform: rotate(-15deg); /* Safari */
+        transform: rotate(-15deg);
+        margin: 0;
+        margin-top: -5%;
+        margin-left: -10%;
+        min-width: 900px;
+        max-width: 1000px;
+        /*max-height: 10vw;*/
+        /*overflow: hidden;*/
+        text-align: center;
+    }
 }
