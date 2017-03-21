@@ -112,33 +112,54 @@ body {
 }
 
 @media screen and (min-width : 1280px) and (max-width: 1679px) {
+    body {
+        padding-left: 25%;
+        padding-right: 20%;
+    }
+
     .never-stop {
-        padding-top: 15%;
-        width: 60%;
+        margin-left: -20%;
+        padding-top: 10%;
+        width: 80%;
+    }
+
+    .never-stop img {
+        width: 100%;
+        max-height: 500px;
     }
 
     .editable {
         display: block;
         color: #902b38;
         font-size: 9vw;
-        -ms-transform: rotate(-15deg); /* IE 9 */
-        -webkit-transform: rotate(-15deg); /* Safari */
-        transform: rotate(-15deg);
+        -ms-transform: rotate(-10deg); /* IE 9 */
+        -webkit-transform: rotate(-10deg); /* Safari */
+        transform: rotate(-10deg);
         margin: 0;
         margin-top: -8%;
-        margin-left: -10%;
+        margin-left: -18%;
         min-width: 400px;
-        max-width: 500px;
+        max-width: 600px;
         /*max-height: 10vw;*/
         /*overflow: hidden;*/
         text-align: center;
     }
 }
 
-@media screen and (min-width : 1680px) and (max-width: 2559px) {
+@media screen and (min-width : 1680px) and (max-width: 1919px) {
+    body {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
     .never-stop {
         padding-top: 15%;
         width: 60%;
+    }
+
+    .never-stop img {
+        width: 100%;
+        max-height: 500px;
     }
 
     .editable {
@@ -151,6 +172,30 @@ body {
         margin: 0;
         margin-top: -8%;
         margin-left: -10%;
+        min-width: 600px;
+        max-width: 7400px;
+        /*max-height: 10vw;*/
+        /*overflow: hidden;*/
+        text-align: center;
+    }
+}
+
+@media screen and (min-width : 1920px) and (max-width: 2559px) {
+    .never-stop {
+        padding-top: 15%;
+        width: 60%;
+    }
+
+    .editable {
+        display: block;
+        color: #902b38;
+        font-size: 7vw;
+        -ms-transform: rotate(-15deg); /* IE 9 */
+        -webkit-transform: rotate(-15deg); /* Safari */
+        transform: rotate(-15deg);
+        margin: 0;
+        margin-top: -8%;
+        margin-left: -30%;
         min-width: 600px;
         max-width: 7400px;
         /*max-height: 10vw;*/
